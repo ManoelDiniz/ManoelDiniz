@@ -54,7 +54,7 @@ const manoel = {
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎬 Pipeline de vídeos com IA</h3>
+      <h3>🎬 <a href="https://github.com/ManoelDiniz/pipeline-videos-ia">Pipeline de vídeos com IA</a></h3>
       Do roteiro ao upload sem intervenção: o LLM escreve os capítulos, o ComfyUI gera as imagens, o TTS narra, o ffmpeg renderiza e o Playwright publica no YouTube e TikTok. Já gerou 23 h de vídeo.
       <br/><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
