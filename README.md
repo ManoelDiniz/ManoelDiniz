@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:4f46e5,100:06b6d4&height=200&section=header&text=Manoel%20Diniz&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20de%20IA%20%26%20Backend&descAlignY=60&descSize=20" width="100%" alt="Manoel Diniz"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:4f46e5,100:06b6d4&height=200&section=header&text=Manoel%20Diniz&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20de%20IA%20e%20Backend&descAlignY=60&descSize=20" width="100%" alt="Manoel Diniz"/>
 
 <p align="center">
   <a href="https://github.com/ManoelDiniz">
