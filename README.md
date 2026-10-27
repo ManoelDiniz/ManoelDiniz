@@ -1,62 +1,111 @@
-<h1 align="center">Manoel Diniz</h1>
-<p align="center"><b>Desenvolvedor de IA &amp; Backend</b> · Fortaleza, CE</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:4f46e5,100:06b6d4&height=200&section=header&text=Manoel%20Diniz&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20de%20IA%20%26%20Backend&descAlignY=60&descSize=20" width="100%" alt="Manoel Diniz"/>
+
+<p align="center">
+  <a href="https://github.com/ManoelDiniz">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=06B6D4&center=true&vCenter=true&width=620&lines=Agentes+de+IA+e+sistemas+multiagente;LLMs+%2B+MCP+%2B+automa%C3%A7%C3%A3o;Backend+em+Node.js%2C+Python+e+Java;Pipelines+de+IA+generativa+24h" alt="Typing SVG"/>
+  </a>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/manoelviitor/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:dinizpiimentel@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://komarev.com/ghpvc/?username=ManoelDiniz&style=for-the-badge&color=4f46e5&label=VISITAS" alt="Visitas"/>
 </p>
 
----
+## Sobre mim
 
-Desenvolvedor backend com 3+ anos em **Node.js/TypeScript, Python, Java e PHP**, hoje focado em **agentes de IA, LLMs e automação**.
+```ts
+const manoel = {
+  local: "Fortaleza, CE",
+  cargo: "Desenvolvedor de IA & Backend",
+  experiencia: "3+ anos",
+  foco: ["Agentes de IA", "LLMs", "MCP", "Automação", "APIs"],
+  linguagens: ["TypeScript", "Python", "Java", "PHP", "C#"],
+  estudando: "Engenharia de Software",
+};
+```
 
-- Em produção: agente de IA no WhatsApp com OpenAI (Assistants API, Whisper, visão) usando dados reais do cliente no contexto
-- Construo sistemas **multiagente** com Claude Code e servidores **MCP** próprios
-- Pipelines de **IA generativa** que rodam 24h sozinhos: roteiro por LLM, imagens (ComfyUI/SDXL), voz (TTS), render e publicação automática
-- Cursando Engenharia de Software
+- 🤖 Agente de IA no WhatsApp com OpenAI: Assistants API, Whisper, visão e dados do cliente no contexto
+- 🧩 Sistemas **multiagente** com Claude Code e servidores **MCP** próprios
+- 🎬 Pipelines de **IA generativa** que rodam 24h sozinhos: roteiro por LLM, imagens, voz, render e publicação
+- ⚙️ Backend com NestJS, Fastify, Spring Boot e Laravel; filas, scraping e integrações
 
 ## Projetos em destaque
 
-| Projeto | O que é | Stack |
-| --- | --- | --- |
-| [**BRIDGE**](https://github.com/ManoelDiniz/briget-claude) | Plataforma que orquestra vários agentes Claude por projeto, cada um com cargo, memória e permissões. Servidor MCP próprio, acesso remoto por Cloudflare Tunnel, Telegram e 213 testes. | TypeScript · Fastify · React · MySQL |
-| [**orquestrator-works**](https://github.com/ManoelDiniz/orquestrator-works) | Skill para montar um time de agentes no terminal: um orquestrador e executores por pasta, com tarefas e entregas em inbox/outbox. Versão para Claude Code e Cursor. | Claude Code · Cursor · PowerShell |
-| **Pipeline de vídeos com IA** | Do roteiro ao upload sem intervenção: LLM escreve os capítulos, ComfyUI gera as imagens, TTS narra, ffmpeg renderiza e o Playwright publica no YouTube e TikTok. Já gerou 23 h de vídeo. | Python · LLM · ComfyUI · ffmpeg |
-| **agent-relay** | Plugin para vários agentes trabalharem no mesmo repositório sem se atropelar: canal de mensagens, monitor e protocolo de território. | Claude Code plugin |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌉 <a href="https://github.com/ManoelDiniz/briget-claude">BRIDGE</a></h3>
+      Plataforma que orquestra vários agentes Claude por projeto, cada um com cargo, memória e permissões. Servidor MCP próprio, acesso remoto por Cloudflare Tunnel, Telegram e 213 testes.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/ManoelDiniz/orquestrator-works">orquestrator-works</a></h3>
+      Skill para montar um time de agentes no terminal: um orquestrador e executores por pasta, com tarefas e entregas em inbox/outbox. Funciona no Claude Code e no Cursor.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎬 Pipeline de vídeos com IA</h3>
+      Do roteiro ao upload sem intervenção: o LLM escreve os capítulos, o ComfyUI gera as imagens, o TTS narra, o ffmpeg renderiza e o Playwright publica no YouTube e TikTok. Já gerou 23 h de vídeo.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/ComfyUI-4B4B4B?style=flat-square"/>
+      <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔗 agent-relay</h3>
+      Plugin para vários agentes trabalharem no mesmo repositório sem se atropelar: canal de mensagens, monitor de eventos e protocolo de território.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Claude_Code_Plugin-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+    </td>
+  </tr>
+</table>
 
 ## Tecnologias
 
-**IA:**
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![ComfyUI](https://img.shields.io/badge/ComfyUI-4B4B4B?style=flat-square)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,ts,nodejs,java,php,cs&perline=6" alt="Linguagens"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=nestjs,express,spring,laravel,dotnet,react,nextjs,vite&perline=8" alt="Frameworks"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,git,cloudflare,linux,githubactions&perline=8" alt="Infra"/>
+</p>
 
-**Linguagens:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ComfyUI-4B4B4B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
+</p>
 
-**Backend:**
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+## Estatísticas
 
-**Dados e infra:**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ManoelDiniz&show_icons=true&theme=tokyonight&hide_border=true&locale=pt-br&count_private=true&hide_rank=true" alt="Stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManoelDiniz&layout=compact&theme=tokyonight&hide_border=true&locale=pt-br&langs_count=8" alt="Linguagens"/>
+</p>
 
----
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=ManoelDiniz&theme=tokyonight&hide_border=true&locale=pt_BR" alt="Streak"/>
+</p>
 
-<p align="center"><i>Aberto a oportunidades como Desenvolvedor de IA.</i></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ManoelDiniz/ManoelDiniz/output/snake-dark.svg"/>
+    <img width="100%" src="https://raw.githubusercontent.com/ManoelDiniz/ManoelDiniz/output/snake.svg" alt="Cobrinha das contribuições"/>
+  </picture>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:4f46e5,100:0f172a&height=120&section=footer" width="100%"/>
