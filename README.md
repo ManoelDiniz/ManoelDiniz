@@ -63,10 +63,30 @@ const manoel = {
       <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
     </td>
     <td width="50%" valign="top">
-      <h3>🔗 agent-relay</h3>
+      <h3>🔗 <a href="https://github.com/ManoelDiniz/agent-relay">agent-relay</a></h3>
       Plugin para vários agentes trabalharem no mesmo repositório sem se atropelar: canal de mensagens, monitor de eventos e protocolo de território.
       <br/><br/>
       <img src="https://img.shields.io/badge/Claude_Code_Plugin-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💧 <a href="https://github.com/ManoelDiniz/entrega-fila-agua">entrega-fila-agua</a></h3>
+      Entregas por fila com trava de concorrência (SKIP LOCKED): o entregador escolhe quantas leva e o sistema monta a rota otimizada via OSRM, com atualização em tempo real.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React_PWA-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>✈️ <a href="https://github.com/ManoelDiniz/monitor-passagens">monitor-passagens</a></h3>
+      Monitora preços de passagens e avisa no Telegram. Tem módulo de câmbio e radar de cripto com coleta agendada de várias fontes e backtest contra o CDI.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
     </td>
   </tr>
 </table>
